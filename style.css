@@ -1,0 +1,20 @@
+body {
+  background-color: rgba(210, 105, 30, 0.267);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container {
+  text-align: center;
+  margin: 0 20%;
+  color: rgb(250, 58, 10);
+  text-align: left;
+}
+header {
+  text-align: center;
+}
+.input-box {
+  margin-top: 2%;
+  margin-bottom: 10px;
+}
+.outer-box {
+  box-shadow: 10px 10px 10px 10px rgba(210, 105, 30, 0.267);
+}
