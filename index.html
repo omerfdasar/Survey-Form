@@ -17,8 +17,8 @@
       </header>
       <form action="result.html">
         <div class="outer-box">
-          <fieldset id="personal information">
-            <div id="input-box">
+          <fieldset id="personal-information">
+            <div class="input-box">
               <label for="name">Name</label><br>
               <input
                 type="text"
@@ -50,7 +50,7 @@
                 >Which option best describes your current role</label
               ><br>
               <select name="role" id="role">
-                <option value="">Select current role</option>
+                <option value="selected" selected disabled >Select current role</option>
                 <option value="Student">Student</option>
                 <option value="Currently Working">Currently Working</option>
                 <option value="Developer">Developer</option>
@@ -98,7 +98,7 @@
                 >What is your favorite feature of Clarusway?</label
               ><br>
               <select name="feature" id="feature">
-                <option value="">Select an option</option>
+                <option value="selected" selected disabled>Select an option</option>
                 <option value="Courses">Courses</option>
                 <option value="System">System</option>
                 <option value="Instructors">Instructors</option>
@@ -139,18 +139,20 @@
               <label for="fourth-check">Additional Courses</label><br />
             </div>
           </fieldset>
-          <fieldset id="feedback-box">
-            <label for="feedback">Any comments or suggestions?</label><br />
+          <div id="Feedback-booox">
+            <div class="input-box">
+            <p>Any comments or suggestions?</p><br />
             <textarea
               name="feedback"
               id="feedback"
-              cols="60"
+              cols="50 "
               rows="5"
               placeholder="Enter your comment here.. Thanks for your participation"
             ></textarea>
-          </fieldset>
+          </div>
+        </div>
           <div class="form-submit">
-            <button type="submit" id="form-button">Send</button>
+            <button type="submit" id="form-button">Submit</button>
         </div>
       </form>
     </div>
